@@ -25,7 +25,7 @@
 <body class="banner-area" <?php body_class(); ?>>
 	<nav id="menu" class="navbar navbar-expand-lg navbar-dark bg-dark" role="navigation">
 		<div class="site-branding navbar-brand">
-			<a href="http://localhost/TinardsBakedDelightsECommerce/" class="navbar-brand"><span class="logo">Angel's Accessories</span></a>
+			<a href="http://localhost/TinardsBakedDelightsECommerce/" class="navbar-brand"><span class="logo">Tinards Baked Delights</span></a>
 		</div><!-- .site-branding -->
 
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
