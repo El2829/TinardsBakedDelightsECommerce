@@ -1,0 +1,9 @@
+2021-01-21T18:28:41+00:00 CRITICAL Uncaught Error: Class 'Automattic\Jetpack\Connection\Rest_Authentication' not found in C:\xampp\htdocs\TinardsBakedDelightsECommerce\wp-content\plugins\jetpack\class.jetpack.php:684
+Stack trace:
+#0 C:\xampp\htdocs\TinardsBakedDelightsECommerce\wp-content\plugins\jetpack\class.jetpack.php(414): Jetpack->__construct()
+#1 C:\xampp\htdocs\TinardsBakedDelightsECommerce\wp-content\plugins\jetpack\load-jetpack.php(88): Jetpack::init()
+#2 C:\xampp\htdocs\TinardsBakedDelightsECommerce\wp-content\plugins\jetpack\jetpack.php(174): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\TinardsBakedDelightsECommerce\wp-admin\includes\plugin.php(670): include_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\TinardsBakedDelightsECommerce\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\API\Plugins.php(416): activate_plugin('jetpack/jetpack...')
+#5 C:\xampp\htdocs\TinardsBakedDelightsECommerce\wp-includes\rest-api\class-wp-rest-server.php(1160): Automattic\WooCommerce\Admin\API\Plugins->activate_plugins(Object(W in C:\xampp\htdocs\TinardsBakedDelightsECommerce\wp-content\plugins\jetpack\class.jetpack.php on line 684
+
