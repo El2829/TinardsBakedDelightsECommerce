@@ -144,8 +144,8 @@ function blank_zip_scripts() {
 	wp_enqueue_script( 'blank-zip-bootstrap-hover', get_template_directory_uri() . '/src/js/bootstrap-hover.js',
 	array('jquery'),'20170115', true);
 
-	// wp_enqueue_script( 'blank-zip-nav-scroll', get_template_directory_uri() . '/src/js/nav-scroll.js',
-	// array('jquery'),'20170115', true);
+	wp_enqueue_script( 'blank-zip-nav-scroll', get_template_directory_uri() . '/src/js/nav-scroll.js',
+	array('jquery'),'20170115', true);
 
 	wp_enqueue_script( 'blank-zip-wow', get_template_directory_uri() . '/src/js/wow.min.js',
 	array('jquery'),'20170115', true);
